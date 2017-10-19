@@ -3,24 +3,7 @@
 #include<time.h>
   
   char s[5][4]={'F','O','U','R','D','I','C','E','D','O','L','L','N','O','S','E','P','A','N','T'};
-  char a[8][8];
-/*int check_right(int h,int k,char s[5][4],int r)
-{ int h1=h,k1=k;
-  int i;
-  int flag=0;
-  k++;
-  for(i=0;i<3;i++)
-  {
-     if((a[h][k]!='a' && a[h][k]!=s[r][i+1]) || k<0 || k>5 || h<0 || h>5)
-     {
-       flag=1; 
-     }
-     k++;
-     
-  }
-  return flag;
-  
-}*/  
+  char a[8][8]; 
 int check_right(int h,int k,char s[5][4],int r)
 { int h1=h,k1=k;
   int i;
