@@ -15,7 +15,7 @@ void main(){
     fp=fopen("words_alpha_3letters.txt","r");
   while(!feof(fp)){
     fscanf(fp,"%s",&word_buffer);
-    printf("%d\n",no_of_letters); //it doens't work without this :( plis fix
+    printf("%d\n",no_of_letters); //it doesn't work without this :( plis fix
     if(strcmp(word_buffer,word_to_be_searched)==0){
       found=1;
       fclose(fp);
