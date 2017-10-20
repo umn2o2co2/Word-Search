@@ -15,14 +15,13 @@ void main(){
     fp=fopen("words_alpha_3letters.txt","r");
   while(!feof(fp)){
     fscanf(fp,"%s",&word_buffer);
-    printf("%d\n",no_of_letters); //it doesn't work without this :( plis fix
     if(strcmp(word_buffer,word_to_be_searched)==0){
       found=1;
       fclose(fp);
       break;
     }
   }
-  if(found=1)
+  if(found==1)
     printf("Word exists\n");
   else
     printf("Word doesn't exist\n");
