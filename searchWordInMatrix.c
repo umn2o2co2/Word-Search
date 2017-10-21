@@ -3,7 +3,7 @@
 
 char matrix1[4][4];
 char word[4];
-void locate(char word[4]);
+int locate(char word[4]);
 int find(int point_i,int point_j,int letter_count,char word[4]);
 
 
