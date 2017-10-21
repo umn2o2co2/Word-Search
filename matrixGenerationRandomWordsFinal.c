@@ -452,7 +452,6 @@ void main()
    do
    { printf("Enter a 3-letter / 4-letter Word:");
     scanf("%s",word);
-    word=toupper(word); //test
     len=strlen(word);
    }while(len<3 || len>4);
   is_word_in_matrix=locate(word,a); 
